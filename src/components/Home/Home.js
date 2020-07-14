@@ -17,7 +17,7 @@ const Home = () => {
           image="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._SX325_BO1,204,203,200_.jpg"
           title="The Lean Startup: How Constant Innovation Creates Radically Successful Businesses Paperback"/>
         <Product
-          id="01"
+          id="02"
           price={11.96}
           rating={5}
           image="https://images-na.ssl-images-amazon.com/images/I/81O%2BGNdkzKL._AC_SX450_.jpg"
@@ -25,19 +25,19 @@ const Home = () => {
       </div>
       <div className="home__row">
         <Product
-          id="01"
+          id="03"
           price={11.96}
           rating={5}
           image="https://images-na.ssl-images-amazon.com/images/I/71Swqqe7XAL._AC_SX466_.jpg"
           title="Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor"/>
         <Product
-          id="01"
+          id="04"
           price={11.96}
           rating={5}
           image="https://media.very.co.uk/i/very/P6LTG_SQ1_0000000071_CHARCOAL_SLf?$300x400_retinamobilex2$"
           title="New Apple iPad Pro (12.9-inch, Wi-Fi, 128GB) - Silver (4th Generation)"/>
         <Product
-          id="01"
+          id="05"
           price={11.96}
           rating={5}
           image="https://images-na.ssl-images-amazon.com/images/I/816ctt5WV5L._AC_SX385_.jpg"
@@ -45,7 +45,7 @@ const Home = () => {
       </div>
       <div className="home__row">
         <Product
-          id="01"
+          id="06"
           price={11.96}
           rating={5}
           image="https://images-na.ssl-images-amazon.com/images/I/6125mFrzr6L._AC_SX355_.jpg"
