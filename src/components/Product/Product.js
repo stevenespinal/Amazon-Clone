@@ -10,7 +10,10 @@ const Product = ({id, title, rating, image, price}) => {
       type: 'ADD_TO_BASKET',
       item: {
         id,
-        title
+        title,
+        rating,
+        image,
+        price
       }
     })
   }

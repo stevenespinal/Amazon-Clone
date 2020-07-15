@@ -7,8 +7,11 @@ export const initialState = {
       image: "https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._SX325_BO1,204,203,200_.jpg",
       price: 59.99
     }
-  ]
+  ],
+  user: null
 }
+
+export const getBasketTotal = basket => basket?.reduce((amt, item) => item.price + amt, 0);
 
 export const reducer = (state, action) => {
   const {type, item, id} = action;
