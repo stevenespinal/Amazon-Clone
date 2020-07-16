@@ -14,7 +14,7 @@ export const initialState = {
 export const getBasketTotal = basket => basket?.reduce((amt, item) => item.price + amt, 0);
 
 export const reducer = (state, action) => {
-  const {type, item, id} = action;
+  const {type, item, id, user} = action;
   switch (type) {
     case 'ADD_TO_BASKET':
       return {...state, basket: [...state.basket, item]};
@@ -27,6 +27,12 @@ export const reducer = (state, action) => {
         console.warn(`Can't remove product (id: ${id} as it is not an existing item`)
       }
       return {...state, basket: newBasket}
+    case 'SIGN_IN':
+      return {...state, user}
+    case 'SIGN_UP':
+      return {...state, user}
+    case 'SIGN_OUT':
+      return {...state, user: null}
     default:
       return state;
   }
